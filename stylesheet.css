@@ -71,3 +71,11 @@ h3 {
   font-size: 32px;
   line-height: 3rem;
 }
+
+#quoteBackground {
+  background-color: rgb(235, 233, 233);
+}
+
+#quoteBackground:hover {
+  background-color: rgb(212, 211, 211);
+}
