@@ -1,7 +1,4 @@
-# HTML Document 
+# HTML Document
 
-**Instructions**
-* Create an HTML file.
-* In the file, declare the document type. 
-* Create the root element of the page. 
-* Nested in that root element, create a `head` and a `body` element. 
+I dont know how to get the line on the left side of the first paragraph below the picture.
+The id of that paragraph is "specialFont".
