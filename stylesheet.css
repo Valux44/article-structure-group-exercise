@@ -1,7 +1,6 @@
 body {
   font-size: 25px;
-  font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman",
-    Times, serif;
+  font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman", Times, serif;
   max-width: 1200px;
   margin: auto;
   line-break: auto;
@@ -9,7 +8,6 @@ body {
 
 #firstLink {
   padding-left: 28rem;
-
   padding-bottom: 30px;
 }
 
@@ -47,8 +45,7 @@ h1 {
 h2 {
   padding-left: 200px;
   padding-right: 200px;
-  font-family: medium-content-sans-serif-font, "Lucida Grande",
-    "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
 }
 h3 {
   color: rgba(0, 0, 0, 0.54);
@@ -60,10 +57,23 @@ h3 {
 }
 
 #specialFont {
-  border-left: 5px;
+  border-left: 3px solid rgba(0, 0, 0, 0.54);
+  margin-left: 200px;
 }
 
-.quotationFont {
+#specialFont>p {
+  margin: 0;
+  padding-left: 20px;
+}
+
+blockquote {
   color: rgba(0, 0, 0, 0.54);
   font-size: 35px;
+}
+
+.blocks {
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: grey;
+  padding: 20px;
 }
