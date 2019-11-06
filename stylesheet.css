@@ -1,0 +1,54 @@
+body {
+  font-size: 19px;
+  font-family: medium-content-title-font, Georgia, Cambria, "Times New Roman",
+    Times, serif;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#firstLink {
+  padding-left: 28rem;
+
+  padding-bottom: 30px;
+}
+
+a {
+  color: gray;
+}
+a:hover {
+  color: black;
+}
+
+img {
+  margin: 2px;
+  max-width: 1200px;
+}
+
+p {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+h1 {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-weight: 400;
+}
+
+h2 {
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: medium-content-sans-serif-font, "Lucida Grande",
+    "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+}
+h3 {
+  color: rgba(0, 0, 0, 0.54);
+  padding-left: 200px;
+  padding-right: 200px;
+  font-weight: 100;
+  font-family: sans-serif;
+}
+
+#specialFont {
+  border-left: 5px;
+}
