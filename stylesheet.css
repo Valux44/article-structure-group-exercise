@@ -35,6 +35,8 @@ p {
   padding-left: 200px;
   padding-right: 200px;
   padding-bottom: 2rem;
+  color: rgba(0, 0, 0, 0.84);
+  letter-spacing: -0.004em;
 }
 
 h1 {
@@ -49,6 +51,7 @@ h2 {
   padding-right: 200px;
   font-family: medium-content-sans-serif-font, "Lucida Grande",
     "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+  font-size: 30px;
 }
 h3 {
   color: rgba(0, 0, 0, 0.54);
@@ -65,5 +68,6 @@ h3 {
 
 .quotationFont {
   color: rgba(0, 0, 0, 0.54);
-  font-size: 35px;
+  font-size: 32px;
+  line-height: 3rem;
 }
