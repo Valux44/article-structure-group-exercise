@@ -145,8 +145,75 @@
         managed separately. I personally think that any function that has more than 10 lines is just too long, but this is just
         a rule of thumb.</p>
         <p>— Using double negatives. Please do not not not do that.</p>
-        
+
       </div>
+      <div>
+        <p class="quotationFont">Using double negatives is just very not not wrong</p>
+      </div>
+      <p>— Using short, generic, or type-based variable names. Give your variables descriptive and non-ambiguous names.</p>
+      <div><p class="quotationFont"><q>There are only two hard things in Computer<br> Science: cache invalidation and naming things.<br>
+      
+      — Phil Karlton</q></p>
+    </div>
+    <div>
+      <p>— Hard-coding primitive strings and numbers without descriptions. If you want to write logic that depends on a fixed
+      primitive string or number value, put that value in a constant and give it a good name.</p>
+    </div>
+    <div>
+      <p class="blocks">const <strong>answerToLifeTheUniverseAndEverything = 42 ;</strong></p>
+    </div>
+    <div>
+      <p>— Using sloppy shortcuts and workarounds to avoid spending more time around simple problems. Do not dance around
+      problems. Face your realities.</p>
+      <p>— Thinking that longer code is better. Shorter code is better in most cases. Only write longer versions if they make the
+      code more readable. For example, do not use clever one-liners and nested ternary expressions just to keep the code
+      shorter, but also do not intentionally make the code longer when it does not need to be. Deleting unnecessary code is
+      the best thing you can do in any program.</p>
+    </div>
+    <div>
+      <p class="quotationFont"><q>Measuring programming progress by lines of code is like measuring aircraft building progress by weight.
+      
+      — Bill Gates</q></p>
+    </div>
+    <div>
+      <p>— The excessive use of conditional logic. Most of what you think needs conditional logic can be accomplished without it.
+      Consider all the alternatives and pick exclusively based on readability. Do not optimize for performance unless you can
+      measure. Related: avoid Yoda conditions and assignments within conditionals.</p>
+    </div>
+    <div>
+      <h2>4) Picking the First Solution</h2>
+      <p>When I was starting to program, I remember that when I got presented with a problem, I would find a solution and just
+      immediately run with it. I would rush the implementation right away before thinking about the complexities and potential
+      failures of my first identified solution.</p>
+      <p>While the first solution might be tempting, the good solutions are usually discovered once you start questioning all the
+      solutions that you find. If you cannot think of multiple solutions to a problem, that is probably a sign that you do not
+      completely understand the problem.</p>
+      <p>Your job as a professional programmer is not to find a solution to the problem. It is to find the <strong>simplest</strong> solution to
+      the problem. By “simple” I mean the solution has to work correctly and perform adequately but still be simple enough to
+      read, understand, and maintain.</p>
+    </div>
+    <div>
+      <p class="quotationFont"><q>There are two ways of constructing a software<br> design. One way is to make it so simple that there are<br> obviously no
+      deficiencies, and the other way is to<br> make it so complicated that there are no obvious<br> deficiencies.<br>
+      — C.A.R. Hoare</q></p>
+    </div>
+    <div>
+      <h2>5) Not Quitting</h2>
+      <p>Another mistake that I have made more often than I cared to admit is sticking with the first solution even after I
+      identify that it might not be the simplest approach. This is probably psychologically related to the <strong>“not-quitting”</strong>
+      mentality. This is a good mentality to have in most activities, but it should not apply to programming. In fact, when it
+      comes to writing programs, the right mentality is <strong>fail early and fail often.</strong></p>
+      <p>The minute you begin doubting a solution, you should consider throwing it away and re-thinking the problem. This is true
+      no matter how much you were invested in that solution. Source control tools like GIT can help you branch off and
+      experiment with many different solutions. Leverage that.</p>
+      <div>
+        <p class="quotationFont">Do not be attached to code because of how much effort you put into it. Bad code needs to be discarded.</p>
+
+      </div>
+      
+    </div>
+
+
 
 
     </main>
